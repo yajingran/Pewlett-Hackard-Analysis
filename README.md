@@ -17,4 +17,5 @@ The purpose of the assignment was to determine the number of retiring employees 
 <br />ORDER BY count(me.title) DESC;
 <br />![me_sum](me_sum.PNG)
 
+<br />Overall, there will be over 1,500 positions that need to be filled after current employees retire.
 
