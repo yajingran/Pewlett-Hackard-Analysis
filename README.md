@@ -8,13 +8,13 @@ The purpose of the assignment was to determine the number of retiring employees 
 <br /> -After getting the most recent titles of retiring employees, we can see that senior engineers are the group that need the new employees to fill in the roles the most.
 <br /> -Only two managers will retire soon. 
 
-![retire_sum](retire_sum.png)
+![retire_sum](retire_sum.PNG)
 ## Summary
 -Query:
 <br />SELECT COUNT(me.title), me.title
 <br />FROM mentorship_eligibility as me
 <br />GROUP BY me.title
 <br />ORDER BY count(me.title) DESC;
-<br />![me_sum](me_sum.png)
+<br />![me_sum](me_sum.PNG)
 
 
